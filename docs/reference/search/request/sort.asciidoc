@@ -102,7 +102,7 @@ PUT /my_index/_doc/1?refresh
    "price": [20, 4]
 }
 
-POST /_search
+POST my_index/_search
 {
    "query" : {
       "term" : { "product" : "chocolate" }
